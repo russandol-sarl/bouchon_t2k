@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3-alpine
 
 ENV T2K_LOG_FILE /usr/src/t2k/log
 ENV T2K_MESS_DIR /usr/src/t2k/messages
